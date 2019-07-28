@@ -9,7 +9,7 @@ version = '1.0.1'
 
 
 def load(filepath: str, converter=None):
-    """Load a pg_dump file created with -Fd from disk
+    """Load a pg_dump file created with -Fc from disk
 
     :param str filepath: The path to the dump to load
     :param class converter: The data converter class to use
